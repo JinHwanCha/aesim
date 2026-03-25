@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>애심상조 - Contact</title>
+    <link href="./css/reset.css" rel="stylesheet" />
+    <link href="./css/style.css" rel="stylesheet" />
+    <script type="text/javascript" src="./js/aesim.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <div class="inner_1440">
+            <a href="index.html">
+                <h1 class="logo">
+                    <img src="./images/logo6.png" alt="애심상조 로고" />
+                    <span class="hidden">애심상조</span>
+                </h1>
+            </a>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html">Home</a></li>
+                    <li class="nav__item"><a href="history.html">연혁</a></li>
+                    <li class="nav__item"><a href="products.html">상품</a></li>
+                    <li class="nav__item"><a href="services.html">서비스</a></li>
+                    <li class="nav__item on"><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <section class="section contact-section">
+            <div class="inner_1440">
+                <h2 class="section__title">Contact</h2>
+                <form id="contactForm" class="contact__form" autocomplete="off">
+                    <div class="form__row">
+                        <label for="name">이름</label>
+                        <input type="text" id="name" name="name" required />
+                    </div>
+                    <div class="form__row">
+                        <label for="phone">연락처</label>
+                        <input type="text" id="phone" name="phone" required />
+                    </div>
+                    <div class="form__row">
+                        <label for="message">문의 내용</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn--primary">문의하기</button>
+                </form>
+                <div class="contact__info" style="margin-top:32px;">
+                    <strong>대표: 민진국</strong><br />
+                    <span>상담전화: 010-1234-5678</span>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
